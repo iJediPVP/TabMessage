@@ -1,0 +1,32 @@
+# TabMessage by i_Jedi
+# Arguments:
+# <d1> - Date format: MM/DD/YYYY
+# <d2> - Date format: DD/MM/YYYY
+# <t1> - 12 Hour time
+# <t2> - 24 Hour time
+#
+# Change animated to true to use animation.
+# If animated is set to false the top message will be displayed instead.
+# Animation works by looping through the messages under "messages"
+# Each message will be displayed for 1 second before moving to the next.
+# You can have as many messages as you would like.
+#
+# Change to true to enable the plugin.
+enabled: true
+
+# Symbol to use for color codes
+colorSymbol: $
+
+# Message displayed at the TOP of the Tab List
+header:
+  animated: false
+  messages:
+    - $fDefault header.
+    - $fDefault header \#2.
+
+# Message displayed at the BOTTOM of the Tab List
+footer:
+  animated: false
+  messages:
+    - $fDefault footer.
+    - $fDefault footer \#2.

@@ -1,0 +1,14 @@
+name: TabMessage
+version: 1.0.0
+main: me.ijedi.tabmessage.Main
+author: i_Jedi
+website: www.ijedi.me
+commands:
+  TABMESSAGE:
+    description: Display a list of commands.
+    usage: /tabmessage
+    aliases: [tm]
+  TEST:
+permissions:
+  tabmessage.reload:
+    description: Give permission to /tabmessage reload
